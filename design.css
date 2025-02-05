@@ -133,7 +133,6 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   transition: all .5s;
   overflow-y: hidden;
 }
@@ -207,7 +206,7 @@ nav a:hover {
 .dropdown-content {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: unset;
   margin-top: 0rem;
   transition: all .5s;
   width: fit-content;
@@ -1049,6 +1048,7 @@ nav a:hover {
 		flex-wrap: nowrap;
 		overflow-x: visible;
 		overflow-y: hidden;
+		background-color: white;
 	}
 
 	.dropdown-content a {
